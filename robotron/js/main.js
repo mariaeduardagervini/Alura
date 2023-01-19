@@ -58,6 +58,23 @@ function atualizaEstatisticas(peca) {
   });
 }
 
+var indice = 1;
+var cores = [
+  'img/robotron-azul.png',
+  'img/robotron-amarelo.png',
+  'img/robotron-branco.png',
+  'img/robotron-rosa.png',
+  'img/robotron-vermelho.png',
+  'img/robotron-preto.png',
+];
+
+function mudaCor() {
+  if (indice == cores.length) {
+    indice = 0;
+  }
+  document.getElementById('robotron').src = cores[indice];
+  indice++;
+}
 /*
 const subtrair = document.querySelector('#subtrair');
 const somar = document.querySelector('#somar');
