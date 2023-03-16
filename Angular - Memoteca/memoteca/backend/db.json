@@ -4,48 +4,56 @@
       "id": 1,
       "conteudo": "Que bom que você veio",
       "autoria": "Duda",
-      "modelo": "modelo1"
+      "modelo": "modelo1",
+      "favorito": false
     },
     {
       "id": 2,
       "conteudo": "Que bom que você veio",
       "autoria": "Dev2",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 3,
       "conteudo": "Que bom que você veio",
       "autoria": "Dev3",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "id": 4,
       "conteudo": "sssss",
       "autoria": "ssssss",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "conteudo": "ssss",
       "autoria": "ffsfcs",
       "modelo": "modelo2",
+      "favorito": true,
       "id": 5
     },
     {
       "conteudo": "vsfvdvsd",
       "autoria": "vfvsdfvdf",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 6
     },
     {
       "conteudo": "vfsvsvs",
       "autoria": "vsfvsvws",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "maria eduarda",
       "autoria": "yoda",
       "modelo": "modelo3",
+      "favorito": false,
       "id": 8
     }
   ]
