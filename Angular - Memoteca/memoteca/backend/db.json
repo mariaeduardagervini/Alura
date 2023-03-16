@@ -12,14 +12,14 @@
       "conteudo": "Que bom que você veio",
       "autoria": "Dev2",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Que bom que você veio",
       "autoria": "Dev3",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
@@ -32,28 +32,28 @@
       "conteudo": "ssss",
       "autoria": "ffsfcs",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 5
     },
     {
       "conteudo": "vsfvdvsd",
       "autoria": "vfvsdfvdf",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 6
     },
     {
       "conteudo": "vfsvsvs",
       "autoria": "vsfvsvws",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 7
     },
     {
       "conteudo": "maria eduarda",
       "autoria": "yoda",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 8
     }
   ]
