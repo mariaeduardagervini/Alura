@@ -33,7 +33,6 @@
             <a href="#" class="lista-menu__link">DESIGN & UX</a>
           </li>
         </ul>
-
         <img src="assets/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
       </div>
       <div class="container">
@@ -50,10 +49,8 @@
     <section class="carrossel">
       <h2 class="carrossel__titulo">Últimos lançamentos</h2>
       <div class="swiper">
-        <!-- Additional required wrapper -->
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
-          <!-- Slides -->
           <div class="swiper-slide">
             <img src="assets/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books" />
           </div>
@@ -81,25 +78,29 @@
         <div class="card__descricao">
           <!--1ª coluna -->
           <div class="descricao">
-            <h3 class="descricao__titulo">Talvez você também se interesse por...</span>
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
             <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
             <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
           </div>
           <!--2ª coluna -->
-           <img src="assets/Perfil-escritora 2.svg" alt="Capa do livro de Angular 11 do alura books" class="descricao__imagem" />
+          <img
+            src="assets/Perfil-escritora 2.svg"
+            alt="Capa do livro de Angular 11 do alura books"
+            class="descricao__imagem"
+          />
         </div>
-      <!--2ª linha -->   
-      <div class="card__botoes">
-       <!--1ª coluna --> 
-        <ul class="botoes">
-          <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="card__imagem" /></li>
-          <li class="botoes__item"><img src="assets/Sacola.svg" alt="Sacola de compras" class="card__imagem" /></li>
-        </ul>
-        <!--2ª coluna -->
-        <a href="#" class="botoes_ancora">Saiba mais</a>
+        <!--2ª linha -->
+        <div class="card__botoes">
+          <!--1ª coluna -->
+          <ul class="botoes">
+            <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="card__imagem" /></li>
+            <li class="botoes__item"><img src="assets/Sacola.svg" alt="Sacola de compras" class="card__imagem" /></li>
+          </ul>
+          <!--2ª coluna -->
+          <a href="#" class="botoes_ancora">Saiba mais</a>
         </div>
       </div>
-      <h2 class="carrossel__titulo">Mais vendidos</h2>C
+      <h2 class="carrossel__titulo">Mais vendidos</h2>
       <div class="swiper">
         <div class="swiper-pagination"></div>
         <div class="swiper-wrapper">
@@ -131,28 +132,26 @@
         <div class="card__descricao">
           <!--1ª coluna -->
           <div class="descricao">
-            <img src="assets/Estrelinhas.svg" alt="Avaliação 5 estrelas" >
-            <h3 class="descricao__titulo">Autora do mês</span>
+            <img src="assets/Estrelinhas.svg" alt="Avaliação 5 estrelas" class="estrelinhas" />
+            <h3 class="descricao__titulo">Autora do mês</h3>
             <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
             <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
           </div>
           <!--2ª coluna -->
-           <img src="assets/Perfil-escritora 1.svg" alt="Foto da escritora do mês" class="descricao__imagem" />
+          <img src="assets/Perfil-escritora 1.svg" alt="Foto da escritora do mês" class="descricao__imagem" />
         </div>
-      <!--2ª linha -->   
-      <div class="card__botoes">
-       <!--1ª coluna --> 
-        <ul class="botoes">
-          <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="card__imagem" /></li>
-          <li class="botoes__item"><img src="assets/Sacola.svg" alt="Sacola de compras" class="card__imagem" /></li>
-        </ul>
-        <!--2ª coluna -->
-        <a href="#" class="botoes_ancora">Saiba mais</a>
+        <!--2ª linha -->
+        <div class="card__botoes">
+          <!--1ª coluna -->
+          <ul class="botoes">
+            <li class="botoes__item"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="card__imagem" /></li>
+            <li class="botoes__item"><img src="assets/Sacola.svg" alt="Sacola de compras" class="card__imagem" /></li>
+          </ul>
+          <!--2ª coluna -->
+          <a href="#" class="botoes_ancora">Saiba mais</a>
         </div>
-      </div>
       </div>
     </section>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper('.swiper', {
