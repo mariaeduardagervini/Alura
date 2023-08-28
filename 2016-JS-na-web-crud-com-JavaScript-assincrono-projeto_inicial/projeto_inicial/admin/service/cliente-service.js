@@ -1,10 +1,25 @@
-const http = new XMLHttpRequest();
+const listaClientes = () => {
+  return fetch(`http://localhost:3000/profile`).then((resposta) => {
+    return resposta.json();
+  });
+};
 
-http.open('GET', 'http://localhost:3000/profile');
+const criaCliente = (nome, email) => {
+  return fetch(`http://localhost:3000/profile`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      nome: nome,
+      email: email,
+    }),
+  }).then((resposta) => {
+    return resposta.body;
+  });
+};
 
-http.send();
-
-http.onload = () => {
-  const data = http.response;
-  console.log(data);
+export const clienteService = {
+  listaClientes,
+  criaCliente,
 };
